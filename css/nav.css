@@ -1,0 +1,50 @@
+nav {
+	position: fixed;
+	top: 46px;
+	bottom: 32px;
+	width: 15%;
+	overflow: scroll;
+	background-color: #d1dbff;
+}
+
+nav ul{
+	padding: 12px 0px;
+	margin: 0;
+}
+
+nav ul li{
+	padding: 4pt 6pt;
+	cursor: pointer;
+}
+
+nav ul li.category{
+	padding: 4pt 6pt;
+	cursor: default;
+	font-weight: bold;
+}
+
+nav ul ul li.category{
+	cursor: default;
+	font-weight: normal;
+	font-style: italic;
+}
+
+nav ul ul{
+	margin-left: 12pt;
+	padding: 0pt;
+	list-style-type: none;
+}
+
+nav ul ul li{
+	font-weight: normal;
+	padding: 3pt 6pt;
+}
+
+nav ul li:hover {
+	background-color: #fbedff;
+	color: black;
+}
+
+article {
+	left: 20%;
+}
