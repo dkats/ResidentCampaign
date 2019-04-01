@@ -9,8 +9,8 @@ header {
 	right: 0;
 	left: 0;
 	z-index: 2;
-	color: white;
-	background-color: #000066;
+	color: #000066;
+	background-color: white;
 	clear: left;
 	text-align: center;
 	font-weight: bold;
@@ -33,7 +33,7 @@ header {
 }
 
 .droprest:hover {
-	color: black;
+	color: #000066;
 	background-color: #f1f1f1;
 }
 
@@ -54,8 +54,8 @@ footer {
 	left: 0;
 	width: 90%;
 	z-index: 2;
-	color: white;
-	background-color: #000066;
+	color: #000066;
+	background-color: white;
 	clear: left;
 	text-align: center;
 	font-size: 8pt;
@@ -64,7 +64,7 @@ footer {
 }
 
 .footer-icon {
-	fill: white;
+	fill: #000066;
 }
 
 h1 { 
@@ -181,7 +181,7 @@ ul.menu li {
 	float: left;
 	display: inline;
 	text-align: center;
-	color: white;
+	color: #000066;
 }
 
 header ul.menu li {
@@ -194,7 +194,7 @@ footer ul.menu li {
 
 ul.menu li:hover:not(.active) {
 	background-color: #e6d1fc;
-	color: black;
+	color: #000066;
 }
 
 ul.menu li.noclick:hover {
