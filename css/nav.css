@@ -4,7 +4,7 @@ nav {
 	bottom: 32px;
 	width: 15%;
 	overflow: scroll;
-	background-color: #d1dbff;
+	background-color: #edf1ff;
 }
 
 nav ul{
@@ -41,7 +41,7 @@ nav ul ul li{
 }
 
 nav ul li:hover {
-	background-color: #fbedff;
+	background-color: #e6d1fc;
 	color: black;
 }
 

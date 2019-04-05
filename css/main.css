@@ -1,6 +1,6 @@
 body {
 	font-family: arial;
-	background-color: #e2f3ff;
+	background-color: white;
 	margin: 0px 5%;
 }
 
@@ -10,7 +10,7 @@ header {
 	left: 0;
 	z-index: 2;
 	color: #000066;
-	background-color: white;
+	background-color: #edf1ff;
 	clear: left;
 	text-align: center;
 	font-weight: bold;
@@ -55,7 +55,7 @@ footer {
 	width: 90%;
 	z-index: 2;
 	color: #000066;
-	background-color: white;
+	background-color: #edf1ff;
 	clear: left;
 	text-align: center;
 	font-size: 8pt;
@@ -204,7 +204,7 @@ ul.menu li.noclick:hover {
 }
 
 ul.menu li.active {
-	background-color: #fbedff;
+	background-color: #fffbe0;
 	color: #0000a8;
 }
 
@@ -262,13 +262,47 @@ article {
 	top: 46px;
 	bottom: 32px;
 	overflow: auto;
-	background-color: #fbedff;
-	border-right: 9px solid #d1dbff;
-	border-left: 9px solid #d1dbff;
+	background-color: #fffef7;
+	border-right: 3px solid #edf1ff;
+	border-left: 3px solid #edf1ff;
 }
 
 #main_logo {
 	width: 100%;
 	background-color: transparent;
 	border-color: transparent;
+}
+
+div.image {
+	background-image:url(../files/Logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 414px;
+	height: 237px;
+	display: inline-block;
+}​
+
+.latex {
+	font-family: serif;
+}
+
+.latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
 }
