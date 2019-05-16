@@ -135,6 +135,10 @@ a {
 	cursor: pointer;
 }
 
+q {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
 ul.dashed {
 	list-style-type: none;
 }
